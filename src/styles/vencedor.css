@@ -1,0 +1,62 @@
+.mensagem-titulo-vencedor {
+    font-family: var(--fonte1);
+    font-size: 60px;
+    letter-spacing: 4%;
+    margin: auto;
+    text-align: center;
+}
+
+.mensagem-vencedor {
+    color: var(--secundaria);
+    margin: 0px;
+}
+
+.emojis {
+    font-size: 20px;
+}
+
+.vencedores {
+    text-align: center;
+}
+
+.vencedores-premio {
+    font-family: var(--fonte1);
+    color: var(--principal);
+    font-size: 72px;
+    letter-spacing: 4%;
+    margin: 0;
+}
+
+.vencedores-resultado {
+    font-family: var(--fonte1);
+    color: var(--principal);
+    font-size: 20px;
+}
+
+.lista-vencedores {
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.botao-reiniciar {
+    margin: 3px 0px;
+}
+
+.final {
+    text-align: center;
+    margin-top: 40px;
+}
+
+@keyframes voar {
+    25% { transform: rotate(0deg); }
+    30% { transform: rotate(15deg); }
+    35% { transform: rotate(0deg); }
+    40% { transform: rotate(15deg); }
+    45% { transform: rotate(0deg); }
+    80% { transform: rotate(0deg); }
+    85% { transform: rotate(15deg); }
+    90% { transform: rotate(0deg); }
+    95% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+  }

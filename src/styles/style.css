@@ -1,0 +1,46 @@
+@import url(./criar.css);
+@import url(./escolha.css);
+@import url(./home.css);
+@import url(./listar.css);
+@import url(./vencedor.css);
+@import url(./navegador.css);
+@import url(./popup.css);
+@import url(./sorteio.css);
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --principal : #BB84E8;
+    --secundaria: #35185A;
+    --aux1: #FFFFFF;
+    --aux2: #000000;
+
+    --fonte1: "Alfa Slab One", serif;
+    --fonte2: 'Roboto', sans-serif;
+}
+
+.cor-body {
+    background-color: var(--aux1);
+}
+
+strong {
+    color: var(--principal);
+}
+
+span {
+    color: var(--secundaria);
+}
+
+#botao {
+    padding: 10px 20px;
+    background-color: var(--principal);
+    color: var(--aux1);
+    font-family: var(--fonte1);
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+#botao:hover {
+    background-color: var(--secundaria);
+}

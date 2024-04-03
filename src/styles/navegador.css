@@ -1,0 +1,32 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--aux1);
+}
+
+.cabecalho-esquerda {
+    flex: 1;
+    margin-left: 12px;
+}
+
+.cabecalho-centro {
+    flex: 2;
+}
+
+.imagem-logo {
+    width: 126px;
+    height: 126px;
+}
+
+.cabecalho-direita {
+    flex: 1;
+    font-family: var(--fonte1);
+    font-size: 100;
+}
+
+.botao-link {
+    letter-spacing: 1px;
+}

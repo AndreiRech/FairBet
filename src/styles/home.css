@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 100px;
+}
+
+.linha-vertical {
+    border-left: 3px solid var(--secundaria);
+    height: 566px;
+    margin: 0 40px;
+    border-radius: 2px; 
+}
+
+.introducao {
+   padding-right: 200px; 
+}
+
+.mensagem {
+    color: var(--secundaria);
+    margin-bottom: 50px;
+}
+
+.mensagem-titulo {
+    font-family: var(--fonte1);
+    font-size: 72px;
+    letter-spacing: 4%;
+    margin: auto;
+}
+
+.mensagem-paragrafo {
+    font-family: var(--fonte2);
+    font-size: 18px;
+}
+
+.botoes-criar-vencedor {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-criar {
+    display: flex;
+    align-items: center;
+    background-color: var(--secundaria);
+    color: var(--aux1);
+    font-family: var(--fonte1);
+    word-spacing: 4%;
+    border-radius: 10px;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.mensagem-titulo-botao {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.mensagem-paragrafo-botao {
+    font-size: 20px;
+    width: 180px;
+    margin: 0 10px;
+}
+
+.botao-criar-direita {
+    margin-left: 40px;
+}
+
+.imagem-criar {
+    margin-left: 20px;
+}
+
+.botao-criar:hover{
+    background-color: var(--principal);
+}
+
+.botao-criar:hover .imagem-criar {
+    content: url('../assets/edit-branca.png');
+}

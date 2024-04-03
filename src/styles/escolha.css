@@ -1,0 +1,66 @@
+.container-escolha {
+    background-color: var(--secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    font-family: var(--fonte1);
+}
+
+.fundo-quadro-escolha {
+    background-color: var(--aux1);
+    padding: 20px;
+    border-radius: 30px;
+    border-right: 8px solid var(--principal);
+    border-bottom: 8px solid var(--principal);
+    text-align: center;
+    width: 1060px;
+}
+
+.titulo-escolha-texto {
+    color: var(--secundaria);
+    font-size: 60px;
+}
+
+.opcoes-escolha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.opcao-criar, .opcao-listar {
+    flex-basis: 45%;
+}
+
+.criar-texto, .listar-texto {
+    font-size: 50px;
+    color: var(--secundaria);
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.botao-criar-jogo, .botao-listar-jogo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--principal);
+    color: var(--aux1);
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.botao-finais {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.botao-sorteio {
+    margin: 0 40px;
+}
+
+.botao-sorteio:hover, .botao-criar-jogo:hover, .botao-listar-jogo:hover {
+    background-color: var(--secundaria);
+}

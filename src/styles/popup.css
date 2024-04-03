@@ -1,0 +1,131 @@
+.popup-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.popup-conteudo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-bottom: 4px solid var(--principal);
+    border-right: 4px solid var(--principal);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.popup-titulo {
+    font-size: 30px;
+    font-family: var(--fonte1);
+    color: var(--secundaria);
+}
+
+.popup-info {
+    font-size: 20px;
+    color: var(--secundaria);
+}
+
+.popup-botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-fechar, .botao-resultado {
+    padding: 10px 10px;
+    margin: 0 40px;
+    background-color: var(--principal);
+    color: var(--aux1);
+    text-decoration: none;
+}
+
+.botao-fechar:hover, .botao-resultado:hover {
+    background-color: var(--secundaria);
+}
+
+.titulo-resultado {
+    font-size: 60px;
+    color: var(--secundaria);
+    margin: 0px;
+}
+
+.botao-premio {
+    margin: 0 40px;
+}
+
+.tabelas-resultados {
+    display: flex;
+    justify-content: center;
+}
+
+.tabelas-peq-baixo {
+    display: flex;
+}
+
+.tabela-grande, .tabela-medio, .tabela-pequeno {
+    text-align: center;
+    margin: 30px;
+    color: var(--aux1);
+    background-color: var(--principal);
+}
+
+.tabela-grande {
+    width: 50%;
+}
+
+.tabela-medio {
+    width: 85%;
+}
+
+.tabela-pequeno {
+    width: 36%;
+}
+
+.tabela-vencedores-titulo, .tabela-numeros-vencedores-titulo, .tabela-rodadas-titulo, .tabela-n-vencedores-titulo, .tabela-numeros-apostados-titulo, th {
+    font-size: 20px;
+    margin: 0px;
+    background-color: var(--secundaria);
+    border-bottom: 3px solid var(--aux1);
+    padding: 10px;
+    font-family: var(--fonte1);
+}
+
+.tabela-conteudo, td {
+    margin: 0px;
+    background-color: var(--principal);
+    font-family: var(--fonte1);
+    font-size: 15px;
+    padding: 5px;
+}
+
+.popup-fundo-sorteio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-conteudo-sorteio {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 8px solid var(--principal);
+    max-width: 1400px;
+    max-height: 80%;
+    overflow-y: auto;
+}

@@ -1,0 +1,72 @@
+.container-criar {
+    background-color: var(--secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    font-family: var(--fonte1);
+}
+  
+.fundo-quadro-criar {
+    background-color: var(--aux1);
+    padding: 20px 30px;
+    border-radius: 30px;
+    border-right: 8px solid var(--principal);
+    border-bottom: 8px solid var(--principal);
+    text-align: left;
+    width: 1060px;
+}
+
+.titulo-criar-texto {
+    font-size: 60px;
+    color: var(--secundaria);
+    margin: 0px;
+}
+
+.input-criar {
+    font-size: 20px;
+    color: var(--principal);
+}
+  
+.input-box-nome, .input-box-cpf, .input-box-numeros {
+    width: 80%;
+    padding: 10px;
+    border: 3px solid var(--principal);
+    box-sizing: border-box;
+    color: var(--secundaria);
+    font-family: var(--fonte2) ;
+    font-size: 16px;
+}
+
+.titulo-criar {
+    margin: 30px 0 0;
+}
+
+.automatico {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 400px;
+}
+  
+.automatico-descricao {
+    font-size: 10px;
+    color: var(--secundaria);
+    margin: 0;
+}
+
+.botoes-finais {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.botao-enviar {
+    margin-right: 40px;
+}
+
+.botao-aleatorio, .botao-automatico {
+    margin: 3px 0px;
+}

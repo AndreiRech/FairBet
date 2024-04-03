@@ -1,0 +1,57 @@
+.container-listar {
+    background-color: var(--secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte1);
+}
+  
+.fundo-quadro-listar {
+    background-color: var(--aux1);
+    padding: 20px 30px;
+    border-radius: 30px;
+    border-right: 8px solid var(--principal);
+    border-bottom: 8px solid var(--principal);
+    text-align: left;
+    width: 1060px;
+    margin-top: 50px;
+}
+
+.tabela-container {
+    margin-bottom: 30px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-titulo {
+    color: var(--secundaria);
+    font-size: 60px;
+    margin: 10px 0px;
+}
+  
+.tabela th, .tabela td {
+    border: 3px solid var(--aux1);
+    padding: 8px;
+}
+  
+.tabela th {
+    background-color: var(--secundaria);
+    color: var(--aux1);
+    font-size: 24px;
+}
+  
+.tabela tr {
+    text-align: center;
+    background-color: var(--principal);
+    color: var(--aux1);
+    font-family: var(--fonte2);
+    font-size: 15px;
+}
+
+.botao-voltar-div {
+    display: flex;
+    justify-content: right;
+}
